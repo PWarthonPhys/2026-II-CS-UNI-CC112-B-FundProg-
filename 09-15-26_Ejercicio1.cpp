@@ -1,6 +1,8 @@
+//LIBRERÍAS:
 #include <iostream>
 #include <iomanip>
 
+//
 using namespace std;
 
 const int MAX = 100;

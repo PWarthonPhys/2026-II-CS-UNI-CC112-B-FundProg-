@@ -30,6 +30,19 @@ git push -u origin 02-gitignore
  g++ -std=c++2b main.cpp -o main
  El main() debe ser muy pero muy pequeñito
 
+
+ # forma segun gemini
+ ## 2.Compilar el código fuente:
+ Herramienta GCC.Escribe el siguiente comando para compilar tu archivo (reemplaza main.cpp por el nombre real de tu archivo):
+ Bash
+ ++ -o programa main.cpp
+ Verificación: Si no muestra ningún mensaje de error, la terminal volverá a mostrar la ruta de tu carpeta y se habrá creado un archivo ejecutable llamado programa.
+ ## 3.Ejecutar el programa:
+ Ejecutable local.Ejecuta el archivo compilado con el siguiente comando:
+ Bash
+ ./programa
+ Verificación: La salida o el resultado de tu programa se mostrará inmediatamente en la misma terminal.
+
 ///////////////
 
 # git status
@@ -69,6 +82,7 @@ int main() {
     resultado <<endl;
     }
 
-// Definición , creo que tambien puede ir arriba (verificar)
+// Definición , creo que tambien puede ir arriba, verificar
+
 int sumar(int a, int b) {
     return a + b;}

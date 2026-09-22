@@ -52,3 +52,23 @@ git push -u origin 02-gitignore
 
 # git checkout -b nombre_de_rama (o git switch -c nombre_de_rama)
  Crea una rama nueva y te cambia a ella inmediatamente. Es fundamental para probar nuevos algoritmos sin arriesgar el código estable de tu rama principal.
+
+//////
+
+# Formato basico de un codigo
+
+int sumar(int, int); //prototipo
+
+int main() {
+    int num1 = 7;
+    int num2 = 4;
+
+//Llamada
+    int resultado = sumar(num1, num2);
+    cout << "El resultado es: " <<
+    resultado <<endl;
+    }
+
+// Definición , creo que tambien puede ir arriba (verificar)
+int sumar(int a, int b) {
+    return a + b;}

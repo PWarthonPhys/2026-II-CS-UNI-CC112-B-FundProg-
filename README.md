@@ -79,7 +79,7 @@ int main() {
 //Llamada
     int resultado = sumar(num1, num2);
     cout << "El resultado es: " <<
-    resultado <<endl;
+    resultado << endl ;
     }
 
 // Definición , creo que tambien puede ir arriba, verificar

@@ -65,7 +65,14 @@ git push -u origin 02-gitignore
 
 # git checkout -b nombre_de_rama (o git switch -c nombre_de_rama)
  Crea una rama nueva y te cambia a ella inmediatamente. Es fundamental para probar nuevos algoritmos sin arriesgar el código estable de tu rama principal.
-
+////
+# ejemplo
+git status
+git add .
+git commit -m "Mensaje descriptivo"
+git push origin nombre-de-tu-rama
+git pull origin nombre-de-tu-rama
+git checkout -b nombre_de_rama (o git switch -c nombre_de_rama)(Nueva Rama)
 //////
 
 # Formato basico de un codigo

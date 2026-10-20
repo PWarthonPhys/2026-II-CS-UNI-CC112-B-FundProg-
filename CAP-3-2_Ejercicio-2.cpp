@@ -1,3 +1,25 @@
+// Ejercicio 2: Gestión dinámica de postulantes mediante estructuras y punteros en C++
+
+// La Corporación UNIX en sus planes de expansión desea contratar más empleados para
+// el área de ventas. Los postulantes ingresan su código de postulación (3 dígitos) 
+// y edad al sistema de contrataciones. El sistema elige el(los) postulante(s) cuya(s) 
+// edad(es) sea menor o igual a la edad deseada del empleado o empleados a contratarse.
+// Desarrolle el programa en C++ usando asignación dinámica de memoria y una estructura.
+// Ejemplo de salida:
+// Entrada:
+// Por favor, ingrese el número de postulantes: 3
+// Ingrese código del postulante (3 dígitos): 234
+// Ingrese la edad: 34
+// Ingrese código del postulante (3 dígitos): 325
+// Ingrese la edad: 56
+// Ingrese código del postulante (3 dígitos): 432
+// Ingrese la edad: 45
+// Por favor, ingrese la edad deseada del empleado:
+// 47
+// Salida:
+// 234 34
+// 432 45
+
 #include <iostream>
 using namespace std;
 // Estructura para almacenar información del postulante

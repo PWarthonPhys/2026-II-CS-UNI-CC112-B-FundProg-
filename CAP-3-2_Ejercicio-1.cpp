@@ -1,3 +1,11 @@
+// Ejercicio 1: Generación, ordenamiento y gestión dinámica de una matriz bidimensional utilizando punteros 
+// 
+// Escriba un programa que genere de forma aleatoria una matriz dinámica bidimensional rectangular 
+// (de dimensión aleatoria máxima de 10) y aleatoriamente le asigne a cada celda valores enteros entre
+//  -100 y 100. Imprima la matriz.
+// Luego programe una función que ordene la matriz de forma ascendente. Imprima la matriz.
+// Nota: Si desea puede usar más funciones.
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
